@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
@@ -15,11 +15,12 @@
   "author": "Tanu",
   "license": "ISC",
   "devDependencies": {
-<<<<<<< HEAD
     "nodemon": "3.1.10",
     "prettier": "^3.6.2"
-=======
-    "nodemon": "3.1.10"
->>>>>>> 5befb1ba0e2571eafffaae19d3911e5c1c1677f4
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
   }
 }
