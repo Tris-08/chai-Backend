@@ -8,3 +8,5 @@ class ApiResponse{
         //this statuscode are standard values that can be learn on server status code
     }
 }
+
+export {ApiResponse}
